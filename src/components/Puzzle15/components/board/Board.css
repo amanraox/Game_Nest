@@ -1,0 +1,19 @@
+.game-puzzle{
+  position: relative;
+  width: 420px;
+
+}
+.board-puzzle {
+  display: grid;
+  grid-template-columns: repeat(4,var(--size));
+  grid-template-rows: repeat(4,var(--size));
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #55ab9f;
+}
+.puzzle-top-head{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 25px;
+}

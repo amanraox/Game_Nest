@@ -1,0 +1,26 @@
+
+.touchingApp{
+  text-align: center;
+  font-size: 25px;
+  max-width:1400px;
+  height: 100%;
+  min-height: 90vh;
+}
+
+.touchingheading{
+  color: red;
+  text-shadow:  22px 2px 10px #ffefef;
+  text-align: center;
+}
+.touching-message{
+  text-align: center;
+}
+.touchingBall{
+  position: absolute;
+  padding: 20px;
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
